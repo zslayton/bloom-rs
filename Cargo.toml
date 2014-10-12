@@ -1,0 +1,13 @@
+[package]
+
+name = "bloom-rs"
+version = "0.0.1"
+authors = ["zslayton"]
+
+[lib]
+
+name = "bloom"
+
+[dependencies.rust-bloom-filter]
+
+git = "https://github.com/zslayton/rust-bloom-filter.git"
